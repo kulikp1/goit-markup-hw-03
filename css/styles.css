@@ -105,6 +105,9 @@ ul {
   display: flex;
   align-items: center;
 }
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .address-item-item:hover,
 :focus {
   color: var(--OCEAN, #404bbf);
