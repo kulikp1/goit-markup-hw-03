@@ -283,8 +283,8 @@ address {
 .team-item:last-child {
   margin-right: 0;
 }
-.team-img {
-  margin-bottom: 32px;
+.person {
+  padding: 32 0;
 }
 
 .team-name {
