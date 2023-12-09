@@ -108,7 +108,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
 }
 .address-item-item:hover,
-:focus {
+.address-item-item:focus {
   color: var(--OCEAN, #404bbf);
   font-size: 16px;
   font-weight: 400;
@@ -170,13 +170,9 @@ ul {
 .nav-item:last-child {
   margin-right: 0;
 }
-.nav-item:hover,
-:focus {
+.header-link:hover,
+.fheader-link:focus {
   color: var(--OCEAN, #404bbf);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.32px;
 }
 
 address {
@@ -223,7 +219,7 @@ address {
   border: none;
 }
 .intro-btn:hover,
-:focus {
+.intro-btn:focus {
   cursor: pointer;
   background: var(--OCEAN, #404bbf);
 }
@@ -279,6 +275,7 @@ address {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  width: calc(100%-72px) / 4;
 }
 .team-item:last-child {
   margin-right: 0;
@@ -367,7 +364,7 @@ footer {
   text-transform: uppercase;
   display: inline-block;
   text-transform: uppercase;
-  margin-right: 76px;
+
   margin-bottom: 16px;
 }
 .footer-logo-color {
