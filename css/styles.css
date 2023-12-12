@@ -99,14 +99,16 @@ ul {
 .portfolio-name {
   margin-bottom: 8px;
 }
+
 /* Header */
-.header-container {
-  display: flex;
-  align-items: center;
-}
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+.header-items {
+  display: flex;
+  align-items: center;
+}
+
 .address-item-item:hover,
 .address-item-item:focus {
   color: var(--OCEAN, #404bbf);
@@ -141,11 +143,11 @@ ul {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex;
+  align-items: center; */
 }
 
-.blue-logo {
+.header-color-logo {
   color: var(--IRIS, #2e2f42);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -163,15 +165,15 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.nav-item {
+.items-item {
   margin-right: 40px;
 }
 
-.nav-item:last-child {
+.items-item:last-child {
   margin-right: 0;
 }
-.header-link:hover,
-.header-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -186,12 +188,12 @@ address {
   letter-spacing: 0.32px;
 }
 
-.header-link {
+.nav-link {
   display: block;
   padding: 24px 0;
 }
-/* Section one */
 
+/* Introduction  section */
 .intro {
   background: var(--NAVY-BLUE, #2e2f42);
   padding: 188px 0;
@@ -224,23 +226,23 @@ address {
   background: var(--OCEAN, #404bbf);
 }
 
-/* Section two */
-.sec-item {
+/* Section one */
+.section-one-item {
   display: flex;
   gap: 24px;
   justify-content: center;
 }
-.sec-title {
+.sec-one-title {
   margin-bottom: 8px;
 }
 .section-one {
   background: #fff;
 }
-.sec-items {
+.sec-one-items {
   width: 264px;
 }
 
-.sec-title {
+.sec-one-title {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -248,7 +250,7 @@ address {
   letter-spacing: 0.4px;
 }
 
-.sec-desc {
+.sec-one-desc {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -256,13 +258,13 @@ address {
   letter-spacing: 0.32px;
 }
 
-/* Section three */
+/* Section two */
 
 .team {
   background: var(--CLOUD, #f4f4fd);
 }
 
-.team-sec-item {
+.section-team-item {
   display: flex;
   justify-content: center;
 }
@@ -286,7 +288,7 @@ address {
   padding-bottom: 32px;
 }
 
-.team-name {
+.person-name {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -295,7 +297,7 @@ address {
   margin-bottom: 8px;
 }
 
-.team-desc {
+.person-desc {
   color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
@@ -303,7 +305,7 @@ address {
   letter-spacing: 0.32px;
 }
 
-/* Section four */
+/* Section three  */
 .portfolio {
   padding: 120px 0 120px 0;
 }
@@ -325,10 +327,10 @@ address {
 }
 
 .portfolio-content {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-start; */
   align-self: stretch;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -342,11 +344,11 @@ address {
   row-gap: 48px;
 }
 .portfolio-item {
-  display: flex;
+  /* display: flex; */
   width: calc((100% - 48px) / 3);
   padding-bottom: 0px;
-  flex-direction: column;
-  align-items: flex-start;
+  /* flex-direction: column;
+  align-items: flex-start; */
   flex-shrink: 0;
 }
 
